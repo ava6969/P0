@@ -28,6 +28,7 @@ in Bangalore.
  - Telemarketers' numbers have no parentheses or space, but they start
    with the area code 140.
 
+
 Print the answer as part of a message:
 "The numbers called by people in Bangalore have codes:"
  <list of codes>

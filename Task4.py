@@ -31,7 +31,6 @@ texters, textees, _,  = zip(*texts)
 callers, callees, texters, textees = set(callers), set(callees), set(texters), set(textees)
 spammers = []
 for caller in callers:
-
     if caller in callees or caller in texters or caller in textees:
         continue
     else:

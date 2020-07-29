@@ -11,7 +11,6 @@ with open('calls.csv', 'r') as f:
     reader = csv.reader(f)
     calls = list(reader)
 
-
 """
 TASK 0:
 What is the first record of texts and what is the last record of calls?

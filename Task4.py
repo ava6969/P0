@@ -38,7 +38,7 @@ for caller in callers:
 
 print("These numbers could be telemarketers: ")
 
-for s in spammers:
+for s in sorted(spammers):
     print(s)
 
 

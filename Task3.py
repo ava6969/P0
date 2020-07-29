@@ -69,7 +69,7 @@ for t, c in zip(caller, callee):
 
 print("The numbers called by people in Bangalore have codes: ")
 
-for s in set(bange_tel):
+for s in sorted(set(bange_tel)):
     print(s)
 
 

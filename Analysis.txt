@@ -1,7 +1,9 @@
 Runtime Analysis
 
-Task0 : O(1)
-Task1 : O(n)
-Task2 : O(n)
-Task3 : O(n)
-Task4 : O(5n)
+Task0 : O(1) reading a value from an array using its index is a constant time operation
+Task1 : O(n) conversion from a list to a set results in a linear time operation
+Task2 : O(n) reading through the entire list of calls in a linear time operation
+Task3 : O(2n + nlog(n)) = O(n) for reading from calls + O(n) for converting into sets + O(nlogn) for sorting the set
+Task4 : O(5n + nlogn) = O(4n) for converting all 4 list into a set +
+                O(n) for reading into set +
+                O(nlogn) for sorting the set
